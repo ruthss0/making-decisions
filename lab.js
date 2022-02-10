@@ -106,6 +106,9 @@ if(rain) {
 /*
   Create a for-loop that runs 10 times, and on each iteration logs the word 'hello'.
 */
+for (var i=0; i <= 10; i++){
+  console.log("Hello");
+}
 
 //CODE HERE
 
