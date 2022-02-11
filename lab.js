@@ -120,7 +120,9 @@ for (var i=0; i <= 10; i++){
 */
 
 //CODE HERE
-
+for (var i=0; i <= 10; i++){
+  console.log(i+1);
+}
 
 ////////// PROBLEM 7 //////////
 
@@ -129,6 +131,9 @@ for (var i=0; i <= 10; i++){
 */
 
 //CODE HERE
+for (var i = 10; i > 0; i--){
+  console.log(i);
+}
 
 let score = 0
 let passingScore = 7
@@ -140,6 +145,10 @@ let passingScore = 7
 */
 
 //CODE HERE
+while(score < passingScore){
+  console.log("Your score is not high enough")
+  score++;
+}
 
 ////////// INTERMEDIATE PROBLEMS //////////
 
@@ -151,12 +160,18 @@ let passingScore = 7
 */
 
 //CODE HERE
+var changeMyMind = true;
+if(changeMyMind){
+  changeMyMind = false;
+} else {
+  changeMyMind = true
+}
 
 ////////// PROBLEM 10 //////////
 // Try to change the value of changeMyMind (irrespective of whether it is true or false) and then console.log it's new status. It should log true. Hint: use the not operator.
 
 //CODE HERE
-
+console.log(!changeMyMind)
 
 
 ////////// ADVANCED PROBLEMS //////////
@@ -168,4 +183,10 @@ let z = 5
 
 //CODE HERE
 
+while(z > 0){
+  for(var i = z; i > 0; i--) {
+    console.log(i)
+  }
+  z--;
+}
 
